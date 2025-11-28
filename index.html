@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Node_ETH Business Card</title>
+<style>
+body {
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f6f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+.card {
+    background:#ffffff;
+    width:360px;
+    max-width:90%;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.1);
+    text-align:center;
+}
+.card h1 {
+    margin:0;
+    color:#1a237e;
+    font-size:26px;
+    letter-spacing:1px;
+}
+.card h2 {
+    margin:5px 0 15px;
+    color:#555;
+    font-weight:400;
+    font-size:15px;
+}
+.card p {
+    margin:5px 0;
+    color:#333;
+    font-size:14px;
+    word-wrap: break-word;
+}
+.social-links a {
+    display:block;
+    margin:4px 0;
+    color:#1a237e;
+    text-decoration:none;
+    font-weight:500;
+}
+.button {
+    margin-top:15px;
+    padding:8px 16px;
+    background:#1a237e;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.3s;
+}
+.button:hover {
+    background:#0d154f;
+}
+.qr-code {
+    margin-top:15px;
+    width:120px;
+    height:120px;
+}
+</style>
+</head>
+<body>
+<div class="card">
+    <h1>Web Node_ETH</h1>
+    <h2>Digital Solutions | Web Development | Hosting</h2>
+
+    <p><strong>Email:</strong> contact@webnode.eth</p>
+    <p><strong>Customer Care:</strong> <a href="tel:+251955498955">095 549 8955</a></p>
+
+    <div class="social-links">
+        <a href="https://t.me/0955498955" target="_blank">Telegram: @0955498955</a>
+        <a href="https://wa.me/251955498955" target="_blank">WhatsApp: 095 549 8955</a>
+        <a href="https://www.instagram.com/webnode_eth?igsh=MTVraG9mZG9pZzQ3dA==" target="_blank">Instagram: @webnode_eth</a>
+    </div>
+
+    <p><strong>Services:</strong> Web Development | Templates | Hosting | Digital Solutions</p>
+
+    <!-- QR Code linking to your website -->
+    <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://webnodeeth.github.io" alt="QR Code">
+
+    <button class="button" onclick="window.location.href='mailto:contact@webnode.eth'">Contact Us</button>
+</div>
+</body>
+  </html>
